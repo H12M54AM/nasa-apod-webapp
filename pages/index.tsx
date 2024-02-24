@@ -6,8 +6,8 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 // My Components
-import Nav from '@/components/Nav'
-import Latestnews from '@/components/Latestnews'
+import Nav from '@/pages/components/Nav'
+import Latestnews from '@/pages/components/Latestnews'
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='p-0 m-0 box-border bg-black'>
+      <main className='box-border p-0 m-0 bg-black'>
         <Nav />
         <Latestnews />
       </main>
